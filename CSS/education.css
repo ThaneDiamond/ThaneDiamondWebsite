@@ -1,0 +1,54 @@
+.educationSection {
+    margin-top: 5vh;
+    height: 25vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+.headingTwo {
+    color: rgb(238, 238, 238);
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.educationContainer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    display: grid; 
+    grid-template-columns: 1fr 4fr; 
+    gap: 20px; 
+    width: 100%; 
+    margin-bottom: 20px; 
+    align-items: stretch;
+    
+    
+    
+  }
+
+  .titleContainer {
+    font-weight: bold; 
+    text-align: left; 
+    font-size: large;
+    background-color: rgba(57, 62, 70, 0.65); 
+    padding: 15px;
+    border-radius: 15px;
+    line-height: 1.6;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .summaryContainer {
+    text-align: left;
+    line-height: 1.6;
+    font-size: large;
+    background-color: rgba(57, 62, 70, 0.65);
+    padding: 15px;
+    border-radius: 15px;
+  }

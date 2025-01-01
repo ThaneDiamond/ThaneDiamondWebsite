@@ -7,9 +7,19 @@
   body {
     font-family: 'Mulish', 'Arial', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #677D6A;
-    color: #D6BD98;
-    padding: 0 20px; 
+    color: rgb(238, 238, 238);
+    font-weight: bold;
     
+    background-color: rgb(238, 238, 238);
+    padding-left: 10%;
+    padding-right: 10%;
+
+    z-index: 0;
+    background-image: url(/WebsiteSources/Images/blueBlackBackground.avif);
+    background-size: cover;
+    background-position: center;
+   
+    
+
+  
   }
