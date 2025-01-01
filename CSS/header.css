@@ -9,6 +9,11 @@ header {
     margin-right: -12%;
     border-radius: 8px;
   }
+  @media (max-width: 600px) {
+    header{
+        font-size: x-small;
+    }
+}
   
   header nav ul {
     display: flex;

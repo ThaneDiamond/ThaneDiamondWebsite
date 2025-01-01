@@ -5,6 +5,12 @@
     margin-top: 5vh;
 
 }
+@media (max-width: 600px) {
+    .skillsSection{
+        height: 80vh;
+    }
+}
+
 
 .skillsSection div {
     display: grid;
@@ -23,12 +29,19 @@
     grid-template-rows: 1fr;
     
     width: 80%;
-    padding: 5%;
-    gap: 5%;
+    gap: 10px;
     justify-self: center;
     justify-items: center;
 
     
+}
+@media (max-width: 600px) {
+    .skillsContainer{
+        display: grid;
+        grid-template-columns: (1fr,1fr);
+        grid-template-rows: auto auto;
+        gap: 10px;
+    }
 }
 
 .skill {

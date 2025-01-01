@@ -6,6 +6,11 @@
     
 
 }
+@media (max-width: 600px) {
+    .aboutSection{
+        height: 100vh;
+    }
+}
 
 .aboutSection div {
     display: grid;
@@ -38,7 +43,7 @@
     font-weight: bold;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .quickSummary {
       padding: 15px; 
       max-width: 95%; 
