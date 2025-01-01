@@ -6,9 +6,9 @@
     
 
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .projectsSection{
-        height: 130vh;
+        height: 120vh;
     }
 }
 

@@ -5,6 +5,12 @@
     place-items: center;
     
 }
+@media (max-width: 600px) {
+    .educationSection{
+        height: 120vh;
+    }
+}
+
 
 .headingTwo {
     color: rgb(238, 238, 238);
