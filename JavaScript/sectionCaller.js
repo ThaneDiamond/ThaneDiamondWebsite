@@ -5,6 +5,12 @@ fetch('/Elements/landingPage.html')
     document.getElementById('landingPage').innerHTML = data;
 });
 
+fetch('/Elements/contacts.html')
+.then(Response => Response.text())
+.then(data => {
+    document.getElementById('contacts').innerHTML = data;
+});
+
 fetch('/Elements/about.html')
 .then(Response => Response.text())
 .then(data => {
