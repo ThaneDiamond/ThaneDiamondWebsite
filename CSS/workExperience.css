@@ -1,60 +1,43 @@
 .workExperienceSection {
-    height: 85vh;
-    display: grid;
-    place-items: center;
-    margin-top: 5vh;
-}
-@media (max-width: 600px) {
-    .workExperienceSection{
-        height: 150vh;
-    }
-    
+  text-align: center;
+  padding: 20px;
+  
+  color: rgb(238, 238, 238);
+  margin: 20px auto;
+  
+  max-width: 90%; 
 }
 
-
-.headingTwo {
-    color: rgb(238, 238, 238);
-    font-size: xx-large;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.workExperienceSection .headingTwo h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .workContainer {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
 
-    display: grid; 
-    grid-template-columns: 1fr 4fr; 
-    gap: 20px; 
-    width: 100%; 
-    margin-bottom: 20px; 
-    align-items: stretch;
-    
-    
-    
-  }
+.titleContainer h3 {
+  padding: 10px;
+  border-radius: 10px; 
+  background: rgba(57, 62, 70, 0.65); 
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
 
-  .titleContainer {
-    font-weight: bold; 
-    text-align: left; 
-    font-size: large;
-    background-color: rgba(57, 62, 70, 0.65);  
-    padding: 15px;
-    border-radius: 15px;
-    line-height: 1.6;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .summaryContainer {
-    text-align: left; 
-    line-height: 1.6; 
-    font-size: large;
-    background-color: rgba(57, 62, 70, 0.65);  
-    padding: 15px;
-    border-radius: 15px;
-  }
+.summaryContainer p {
+  border-radius: 10px; 
+  background: rgba(57, 62, 70, 0.65); 
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 10px; 
+  margin-bottom: 15px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}

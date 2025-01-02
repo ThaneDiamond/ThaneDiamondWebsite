@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
   }
@@ -11,19 +11,11 @@
     font-weight: bold;
     
     background-color: rgb(238, 238, 238);
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 0 15px;
 
     z-index: 0;
     background-image: url(/WebsiteSources/Images/blueBlackBackground.avif);
     background-size: cover;
     background-position: center;
-   
+    
   }
-
-  @media (max-width: 600px) {
-    body{
-        line-height: 1.2;
-        font-size: small;
-    }
-}

@@ -1,60 +1,40 @@
 .educationSection {
-    margin-top: 5vh;
-    height: 25vh;
-    display: grid;
-    place-items: center;
-    
-}
-@media (max-width: 600px) {
-    .educationSection{
-        height: 120vh;
-    }
+  padding: 20px;
+  text-align: center;
+  color: rgb(238, 238, 238);
+  margin: 20px auto;
+  max-width: 90%; 
 }
 
-
-.headingTwo {
-    color: rgb(238, 238, 238);
-    font-size: xx-large;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.educationSection .headingTwo h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  
 }
 
 .educationContainer {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
 
-    display: grid; 
-    grid-template-columns: 1fr 4fr; 
-    gap: 20px; 
-    width: 100%; 
-    margin-bottom: 20px; 
-    align-items: stretch;
-    
-    
-    
-  }
+.titleContainer h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background: rgba(57, 62, 70, 0.65); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
 
-  .titleContainer {
-    font-weight: bold; 
-    text-align: left; 
-    font-size: large;
-    background-color: rgba(57, 62, 70, 0.65); 
-    padding: 15px;
-    border-radius: 15px;
-    line-height: 1.6;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .summaryContainer {
-    text-align: left;
-    line-height: 1.6;
-    font-size: large;
-    background-color: rgba(57, 62, 70, 0.65);
-    padding: 15px;
-    border-radius: 15px;
-  }
+.summaryContainer p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding-left: 10px; 
+  background: rgba(57, 62, 70, 0.65); 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  
+}

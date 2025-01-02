@@ -1,56 +1,24 @@
 .aboutSection {
-    height: 50vh;
-    display: grid;
-    place-items: center;
-    margin-top: 5vh;
-    
-
-}
-@media (max-width: 600px) {
-    .aboutSection{
-        height: 100vh;
-    }
-}
-
-.aboutSection div {
-    display: grid;
-    justify-content: center;
+  padding: 20px;
+  text-align: center;
+  
+  color: rgb(238, 238, 238);
+  margin: 10px auto;
+  
+  max-width: 90%; 
 }
 
 .headingTwo {
-    margin-bottom: 100px;
-    color: rgb(238, 238, 238);
-    font-size: xx-large;
+  font-size: 1.4rem; 
+  margin-bottom: 15px;
+  text-transform: uppercase; 
 }
 
 .quickSummary {
-    
-  padding: 20px; 
-  background-color: rgba(57, 62, 70, 0.65);
-  max-width: 90%; 
-  margin: auto; 
-  border-radius: 15px; 
-  word-wrap: break-word; 
-  overflow: hidden; 
-  box-sizing: border-box; 
-
+  padding: 10px;
+  border-radius: 10px; 
+  background: rgba(57, 62, 70, 0.65);
+  font-size: 1rem;
+  line-height: 1.5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
-
-.quickSummary p {
-    text-align: justify;
-    padding: 10px;
-    font-size: large;
-    font-weight: bold;
-}
-
-@media (max-width: 600px) {
-    .quickSummary {
-      padding: 15px; 
-      max-width: 95%; 
-    }
-  
-    .quickSummary p {
-      font-size: 14px; 
-      line-height: 1.4; 
-    }
-  }
