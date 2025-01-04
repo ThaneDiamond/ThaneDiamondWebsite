@@ -1,7 +1,7 @@
 .educationSection {
   padding: 20px;
   text-align: center;
-  color: rgb(238, 238, 238);
+ 
   margin: 20px auto;
   max-width: 90%; 
 }
@@ -23,7 +23,7 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 5px;
-  background: rgba(57, 62, 70, 0.65); 
+  background: rgba(63, 78, 79, 0.65); 
   border-radius: 10px; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -33,7 +33,7 @@
   line-height: 1.5;
   margin: 0;
   padding-left: 10px; 
-  background: rgba(57, 62, 70, 0.65); 
+  background: rgba(63, 78, 79, 0.65);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   

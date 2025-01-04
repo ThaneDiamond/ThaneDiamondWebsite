@@ -1,38 +1,29 @@
 header {
-    position: sticky;
-    top: 0;
-    background-color: rgb(238, 238, 238); 
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    z-index: 10;
-    margin-left: -12%;
-    margin-right: -12%;
-    border-radius: 8px;
-  }
-  @media (max-width: 600px) {
-    header{
-        font-size: x-small;
-    }
+  z-index:1337;
+  position: sticky;
+  top: 0;
+
+  
+  width: 100%;
 }
+nav {
+    background-color: rgb(63, 78, 79);
+  }
   
-  header nav ul {
+  nav ul {
+    list-style-type: none; 
+    
     display: flex;
-    justify-content: flex-end; 
-    list-style: none;
+    justify-content: center; 
   }
   
-  header nav ul li {
-    margin: 0 10px;
-  }
   
-  header nav ul li a {
-    text-decoration: none;
-    color: rgb(34, 40, 49);
+  nav ul li a {
+    text-decoration: none; 
+    color: rgb(220, 215, 201);
+    font-size: 15px;
     font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  header nav ul li a:hover {
-    color: #007acc; 
+    
+    transition: background-color 0.3s ease, color 0.3s ease; 
   }
   

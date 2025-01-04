@@ -1,21 +1,27 @@
 * {
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
+    
   }
   
   body {
+    overflow-x: hidden;
     font-family: 'Mulish', 'Arial', 'Helvetica Neue', sans-serif;
     line-height: 1.6;
-    color: rgb(238, 238, 238);
+    color: rgb(60, 61, 55);
     font-weight: bold;
     
-    background-color: rgb(238, 238, 238);
-    padding: 0 15px;
+    
+    background: rgb(44, 54, 57);
+    color: rgb(220, 215, 201);
+    background-size: cover;
+    
 
     z-index: 0;
-    background-image: url(/WebsiteSources/Images/blueBlackBackground.avif);
+    
+    
     background-size: cover;
     background-position: center;
     
   }
+ 

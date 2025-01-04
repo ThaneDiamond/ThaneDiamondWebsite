@@ -41,6 +41,12 @@ fetch('/Elements/projects.html')
     document.getElementById('projects').innerHTML = data;
 });
 
+fetch('/Elements/header.html')
+.then(Response => Response.text())
+.then(data => {
+    document.getElementById('header').innerHTML = data;
+});
+
 
 
 
