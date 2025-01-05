@@ -6,14 +6,13 @@
   
   body {
     overflow-x: hidden;
-    font-family: 'Mulish', 'Arial', 'Helvetica Neue', sans-serif;
+    font-family: 'Playfair Display';
     line-height: 1.6;
-    color: rgb(60, 61, 55);
+    color: rgb(18, 18, 18);
     font-weight: bold;
     
     
-    background: rgb(44, 54, 57);
-    color: rgb(220, 215, 201);
+    background: rgb(245, 245, 245);
     background-size: cover;
     
 
