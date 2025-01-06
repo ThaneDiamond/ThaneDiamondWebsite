@@ -1,29 +1,89 @@
+
 header {
-  z-index:1337;
+  display: flex;
+  justify-content: space-between; 
+  align-items:center;
+  
+  background-color: rgba(34, 40, 49, 0.95); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
   position: sticky;
   top: 0;
-
-  
-  width: 100%;
+  width: 100%; 
+  z-index: 100; 
 }
-nav {
-    background-color: rgb(63, 78, 79);
+
+
+header .siteName {
+  font-size: 1.5rem; 
+  font-weight: bold;
+  color: rgb(238, 238, 238); 
+  margin-right: auto; 
+  margin-left: 1px;
+}
+
+header .contactButtons {
+  list-style: none;
+  display: flex; 
+  gap: 1rem; 
+  margin: 0;
+  padding: 0;
+}
+
+
+header .contactButtons li {
+  display: inline-flex; 
+  align-items: center; 
+}
+
+
+header .contactButtons li a {
+  display: flex;
+  align-items: center; 
+  text-decoration: none;
+  color: rgb(238, 238, 238); 
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 5px;
+  background-color: rgba(57, 62, 70, 0.85);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+header .contactButtons li a:hover {
+  background-color: rgb(100, 110, 120); 
+  transform: scale(1.05); 
+}
+
+header .contactButtons li a img {
+  width: 24px; 
+  height: 24px;
+  object-fit: contain; 
+  margin-right: 0.5rem; 
+  border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: row; 
+    justify-content: space-between;
   }
-  
-  nav ul {
-    list-style-type: none; 
+
+  header .siteName {
+    font-size: 1.2rem; 
+  }
+
+  header .contactButtons {
+    flex-wrap: nowrap; 
+  }
+
+  header .contactButtons li {
     
-    display: flex;
-    justify-content: center; 
+    max-width: 40px;
+    overflow: hidden;
   }
-  
-  
-  nav ul li a {
-    text-decoration: none; 
-    color: rgb(220, 215, 201);
-    font-size: 15px;
-    font-weight: bold;
-    
-    transition: background-color 0.3s ease, color 0.3s ease; 
-  }
+}
+
+
+
   

@@ -6,7 +6,7 @@
   
   body {
     overflow-x: hidden;
-    font-family: 'Playfair Display';
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.6;
     color: rgb(18, 18, 18);
     font-weight: bold;
@@ -22,5 +22,8 @@
     background-size: cover;
     background-position: center;
     
+  }
+  h1, h2, h3 {
+    font-family:'Playfair Display';
   }
  

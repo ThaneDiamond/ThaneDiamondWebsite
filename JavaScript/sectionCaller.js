@@ -5,11 +5,7 @@ fetch('/Elements/landingPage.html')
     document.getElementById('landingPage').innerHTML = data;
 });
 
-fetch('/Elements/contacts.html')
-.then(Response => Response.text())
-.then(data => {
-    document.getElementById('contacts').innerHTML = data;
-});
+
 
 fetch('/Elements/about.html')
 .then(Response => Response.text())
@@ -41,11 +37,6 @@ fetch('/Elements/projects.html')
     document.getElementById('projects').innerHTML = data;
 });
 
-fetch('/Elements/header.html')
-.then(Response => Response.text())
-.then(data => {
-    document.getElementById('header').innerHTML = data;
-});
 
 
 
@@ -56,3 +47,12 @@ fetch('/Elements/header.html')
 // .then(data => {
 //     document.getElementById('header').innerHTML = data;
 // });
+
+// fetch('/Elements/contacts.html')
+// .then(Response => Response.text())
+// .then(data => {
+//     document.getElementById('contacts').innerHTML = data;
+// });
+
+{/* <section class="contactsSection"><div id="contacts"></div></section>
+<section class="contactsStickySection"><div id="contactsSticky"></div></section> */}
