@@ -1,11 +1,10 @@
 .workExperienceSection {
   text-align: center;
   padding: 20px;
-  
-  
-  margin: 20px auto;
-  
   max-width: 90%; 
+  background: rgba(63, 78, 79, 0.85);
+  margin: 5px;
+  border-radius: 15px;
 }
 
 .workExperienceSection .headingTwo h2 {
@@ -24,7 +23,7 @@
 .titleContainer h3 {
   padding: 10px;
   border-radius: 10px; 
-  background: rgba(63, 78, 79, 0.65); 
+  background: #ffff; 
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 5px;
@@ -33,7 +32,7 @@
 
 .summaryContainer p {
   border-radius: 10px; 
-  background: rgba(63, 78, 79, 0.65);
+  background: #ffff;
   font-size: 1rem;
   line-height: 1.5;
   margin: 0;

@@ -1,9 +1,12 @@
 .educationSection {
   padding: 20px;
   text-align: center;
- 
   margin: 20px auto;
   max-width: 90%; 
+  background: rgba(63, 78, 79, 0.85);
+
+  margin: 5px;
+   border-radius: 15px;
 }
 
 .educationSection .headingTwo h2 {
@@ -23,7 +26,7 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 5px;
-  background: rgba(63, 78, 79, 0.65); 
+  background: #ffff; 
   border-radius: 10px; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -33,7 +36,7 @@
   line-height: 1.5;
   margin: 0;
   padding-left: 10px; 
-  background: rgba(63, 78, 79, 0.65);
+  background: #ffff;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   

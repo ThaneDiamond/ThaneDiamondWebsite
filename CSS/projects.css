@@ -2,10 +2,11 @@
 .projectsSection {
   padding: 20px;
  text-align: center;
-  
   margin: 20px auto;
-  
   max-width: 90%; 
+  background: rgba(63, 78, 79, 0.85);
+  margin: 5px;
+  border-radius: 15px;
 }
 
 .projectsSection .headingTwo h2 {

@@ -1,12 +1,11 @@
 .aboutSection {
   padding: 20px;
   text-align: center;
-  
-  margin: 10px auto;
-  
-  max-width: 100%; 
+  max-width: 90%; 
+  background: rgba(63, 78, 79, 0.85);
+  border-radius: 15px;
+  margin: 5px;
 
-  
 }
 
 .headingTwo {
@@ -18,18 +17,22 @@
 .quickSummary {
   padding: 10px;
   border-radius: 10px; 
-  background: rgba(63, 78, 79, 0.65);
+  background: #ffff;
+  
+  
   font-size: 1rem;
   line-height: 1.5;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 1024px) {
+  .aboutSection {
+    margin: 0 auto;
+    max-width: 60%;
+  }
   .quickSummary {
     font-size: 1.5rem; 
-    max-width: 60%; 
-    margin: 0 auto; 
-    line-height: 1.6; 
+    max-width: 90%; 
     word-wrap: break-word; 
   }
 }
